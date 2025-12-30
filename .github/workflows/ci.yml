@@ -1,12 +1,15 @@
-name: First CI Pipeline
+name: CI Check Demo
 
 on:
   push:
     branches:
       - main
+  pull_request:
+    branches:
+      - main
 
 jobs:
-  build:
+  test:
     runs-on: ubuntu-latest
 
     steps:
@@ -16,5 +19,5 @@ jobs:
       - name: Show files
         run: ls
 
-      - name: Run simple command
-        run: echo "CI pipeline is working!"
+      - name: Run JS file
+        run: node script.js
