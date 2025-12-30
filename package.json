@@ -1,0 +1,25 @@
+{
+  "name": "explainer",
+  "version": "1.0.0",
+  "description": "this is the dummy repo to teach github",
+  "main": "index.js",
+  "scripts": {
+
+      "start": "node src/index.js",
+      "test": "echo \"No tests yet\""
+    
+    
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cyber1211-code/explainer.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/cyber1211-code/explainer/issues"
+  },
+  "homepage": "https://github.com/cyber1211-code/explainer#readme"
+}
