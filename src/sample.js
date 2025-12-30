@@ -1,1 +1,1 @@
-"this is a sample file"
+console.log("Hello from real project");
